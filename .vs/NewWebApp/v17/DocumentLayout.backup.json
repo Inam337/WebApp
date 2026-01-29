@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\dontnet\\NewWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4FCE56-3B12-4149-B175-55671ADE3BD9}|NewWebApp\\NewWebApp.csproj|d:\\dontnet\\newwebapp\\newwebapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0F4FCE56-3B12-4149-B175-55671ADE3BD9}|NewWebApp\\NewWebApp.csproj|solutionrelative:newwebapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4FCE56-3B12-4149-B175-55671ADE3BD9}|NewWebApp\\NewWebApp.csproj|d:\\dontnet\\newwebapp\\newwebapp\\newwebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0F4FCE56-3B12-4149-B175-55671ADE3BD9}|NewWebApp\\NewWebApp.csproj|solutionrelative:newwebapp\\newwebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{069D6510-6D45-4A73-986D-1E6392686BC3}|Infrastructure\\Infrastructure.csproj|d:\\dontnet\\newwebapp\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{069D6510-6D45-4A73-986D-1E6392686BC3}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4FCE56-3B12-4149-B175-55671ADE3BD9}|NewWebApp\\NewWebApp.csproj|d:\\dontnet\\newwebapp\\newwebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0F4FCE56-3B12-4149-B175-55671ADE3BD9}|NewWebApp\\NewWebApp.csproj|solutionrelative:newwebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4FCE56-3B12-4149-B175-55671ADE3BD9}|NewWebApp\\NewWebApp.csproj|d:\\dontnet\\newwebapp\\newwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F4FCE56-3B12-4149-B175-55671ADE3BD9}|NewWebApp\\NewWebApp.csproj|solutionrelative:newwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\dontnet\\NewWebApp\\NewWebApp\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "NewWebApp\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\dontnet\\NewWebApp\\NewWebApp\\Properties\\launchSettings.json",
+              "RelativeToolTip": "NewWebApp\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-29T09:35:18.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "D:\\dontnet\\NewWebApp\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "D:\\dontnet\\NewWebApp\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-29T09:23:23.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewWebApp.csproj",
+              "DocumentMoniker": "D:\\dontnet\\NewWebApp\\NewWebApp\\NewWebApp.csproj",
+              "RelativeDocumentMoniker": "NewWebApp\\NewWebApp.csproj",
+              "ToolTip": "D:\\dontnet\\NewWebApp\\NewWebApp\\NewWebApp.csproj",
+              "RelativeToolTip": "NewWebApp\\NewWebApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAawAkAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-29T08:51:12.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\dontnet\\NewWebApp\\NewWebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "NewWebApp\\appsettings.json",
+              "ToolTip": "D:\\dontnet\\NewWebApp\\NewWebApp\\appsettings.json",
+              "RelativeToolTip": "NewWebApp\\appsettings.json",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-29T09:03:20.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\dontnet\\NewWebApp\\NewWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "NewWebApp\\Program.cs",
+              "ToolTip": "D:\\dontnet\\NewWebApp\\NewWebApp\\Program.cs",
+              "RelativeToolTip": "NewWebApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T09:03:16.404Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
