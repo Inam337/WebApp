@@ -3,7 +3,7 @@ using Domain.Entities;
 using Domain.Interfaces;
 using MediatR;
 
-public class CreateUserHandler : IRequestHandler<CreateUserCommand, Guid>
+public class CreateUserHandler : IRequestHandler<CreateUserCommand, User>
 {
     private readonly IUserRepository _repo;
 
@@ -12,17 +12,16 @@ public class CreateUserHandler : IRequestHandler<CreateUserCommand, Guid>
         _repo = repo;
     }
 
-    public async Task<Guid> Handle(CreateUserCommand request, CancellationToken ct)
+    public async Task<User> Handle(CreateUserCommand request, CancellationToken cancellationToken)
     {
         var user = new User
         {
-            Id = Guid.NewGuid(),
             Name = request.Name,
             Email = request.Email
         };
 
         await _repo.AddAsync(user);
 
-        return user.Id;
+        return user;
     }
 }

@@ -1,23 +1,11 @@
 {
   "Version": 1,
-  "Hash": "pcIHlCXA9KNN3VHcJzx5/WzU8GhikHjWFJCOyCKMu8M=",
+  "Hash": "B3YgtF0Kp5xXuF/Iyz4u0EYJOFyfhwgaiH/b4HZOSZI=",
   "Source": "NewWebApp",
   "BasePath": "_content/NewWebApp",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [
-    {
-      "Identity": "D:\\dontnet\\NewWebApp\\Infrastructure\\Infrastructure.csproj",
-      "Version": 2,
-      "Source": "Infrastructure",
-      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
-      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
-    }
-  ],
+  "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
   "Assets": []
 }
