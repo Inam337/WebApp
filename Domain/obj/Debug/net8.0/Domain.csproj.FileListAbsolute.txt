@@ -2,6 +2,7 @@ D:\dontnet\NewWebApp\Domain\bin\Debug\net8.0\Domain.deps.json
 D:\dontnet\NewWebApp\Domain\bin\Debug\net8.0\Domain.runtimeconfig.json
 D:\dontnet\NewWebApp\Domain\bin\Debug\net8.0\Domain.dll
 D:\dontnet\NewWebApp\Domain\bin\Debug\net8.0\Domain.pdb
+D:\dontnet\NewWebApp\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
 D:\dontnet\NewWebApp\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
 D:\dontnet\NewWebApp\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
 D:\dontnet\NewWebApp\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs

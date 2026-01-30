@@ -16,7 +16,6 @@ public class CreateUserHandler : IRequestHandler<CreateUserCommand, User>
     {
         var user = new User
         {
-            Name = request.Name,
             Email = request.Email
         };
 

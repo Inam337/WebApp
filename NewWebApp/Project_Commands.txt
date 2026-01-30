@@ -1,0 +1,2 @@
+﻿dotnet ef migrations add InitialCreate -p Infrastructure -s NewWebApp
+dotnet ef database update -p Infrastructure -s NewWebApp

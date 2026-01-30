@@ -1,6 +1,137 @@
 [
   {
-    "ContainingType": "UsersController",
+    "ContainingType": "NewWebApp.Controllers.AdminController",
+    "Method": "Get",
+    "RelativePath": "api/admin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewWebApp.Controllers.AuthController",
+    "Method": "AssignRole",
+    "RelativePath": "api/auth/assign-role",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "NewWebApp.Controllers.AssignRoleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewWebApp.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "LoginQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewWebApp.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cmd",
+        "Type": "RegisterCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewWebApp.Controllers.AuthController",
+    "Method": "AddRole",
+    "RelativePath": "api/auth/roles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "NewWebApp.Controllers.AddRoleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewWebApp.Controllers.AuthController",
+    "Method": "GetUserClaims",
+    "RelativePath": "api/auth/users/{id}/claims",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewWebApp.Controllers.AuthController",
+    "Method": "AddUserClaim",
+    "RelativePath": "api/auth/users/{id}/claims",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "NewWebApp.Controllers.AddUserClaimRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewWebApp.Controllers.UsersController",
+    "Method": "Get",
+    "RelativePath": "api/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Domain.Entities.User, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NewWebApp.Controllers.UsersController",
     "Method": "Create",
     "RelativePath": "api/Users",
     "HttpMethod": "POST",
@@ -26,16 +157,22 @@
     ]
   },
   {
-    "ContainingType": "UsersController",
+    "ContainingType": "NewWebApp.Controllers.UsersController",
     "Method": "Get",
-    "RelativePath": "api/Users",
+    "RelativePath": "api/Users/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Domain.Entities.User, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Domain.Entities.User",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -44,6 +181,53 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "NewWebApp.Controllers.UsersController",
+    "Method": "Update",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Application.Commands.UpdateUserCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.User",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NewWebApp.Controllers.UsersController",
+    "Method": "Delete",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "NewWebApp.Controllers.WeatherForecastController",
