@@ -2,27 +2,43 @@
 using Domain.Interfaces;
 using Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
-namespace Infrastructure.Repositories
+
+namespace Infrastructure.Repositories;
+
+public class UserRepository : IUserRepository
 {
-    public class UserRepository : IUserRepository
+    private readonly AppDbContext _db;
+
+    public UserRepository(AppDbContext db)
     {
-        private readonly AppDbContext _context;
-
-        public UserRepository(AppDbContext context)
-        {
-            _context = context;
-        }
-
-        public async Task AddAsync(User user)
-        {
-            _context.Users.Add(user);
-            await _context.SaveChangesAsync();
-        }
-
-        public async Task<List<User>> GetAllAsync()
-        {
-            return await _context.Users.ToListAsync();
-        }
+        _db = db;
     }
 
+    public async Task AddAsync(User user)
+    {
+        await _db.Users.AddAsync(user);
+        await _db.SaveChangesAsync();
+    }
+
+    public async Task UpdateAsync(User user)
+    {
+        _db.Users.Update(user);
+        await _db.SaveChangesAsync();
+    }
+
+    public async Task DeleteAsync(User user)
+    {
+        _db.Users.Remove(user);
+        await _db.SaveChangesAsync();
+    }
+
+    public async Task<User?> GetByIdAsync(Guid id)
+    {
+        return await _db.Users.FindAsync(id);
+    }
+
+    public async Task<List<User>> GetAllAsync()
+    {
+        return await _db.Users.ToListAsync();
+    }
 }
