@@ -3781,11 +3781,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dontnet\\NewWebApp\\NewWebApp\\NewWebApp.csproj",
+      "projectUniqueName": "D:\\dontnet\\SeedProject\\WebApp\\NewWebApp\\NewWebApp.csproj",
       "projectName": "NewWebApp",
-      "projectPath": "D:\\dontnet\\NewWebApp\\NewWebApp\\NewWebApp.csproj",
+      "projectPath": "D:\\dontnet\\SeedProject\\WebApp\\NewWebApp\\NewWebApp.csproj",
       "packagesPath": "C:\\Users\\inam.r\\.nuget\\packages\\",
-      "outputPath": "D:\\dontnet\\NewWebApp\\NewWebApp\\obj\\",
+      "outputPath": "D:\\dontnet\\SeedProject\\WebApp\\NewWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3807,11 +3807,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\dontnet\\NewWebApp\\Application\\Application.csproj": {
-              "projectPath": "D:\\dontnet\\NewWebApp\\Application\\Application.csproj"
+            "D:\\dontnet\\SeedProject\\WebApp\\Application\\Application.csproj": {
+              "projectPath": "D:\\dontnet\\SeedProject\\WebApp\\Application\\Application.csproj"
             },
-            "D:\\dontnet\\NewWebApp\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\dontnet\\NewWebApp\\Infrastructure\\Infrastructure.csproj"
+            "D:\\dontnet\\SeedProject\\WebApp\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\dontnet\\SeedProject\\WebApp\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
