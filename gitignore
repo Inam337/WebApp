@@ -33,6 +33,7 @@
 *.vsixmanifest
 *.vscode/
 .vscode/
+.vs/
 
 # NuGet
 *.nupkg
