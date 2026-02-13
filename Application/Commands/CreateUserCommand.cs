@@ -8,4 +8,6 @@ using Domain.Entities;
 namespace Application.Commands
 {
     public record CreateUserCommand(string Name, string Email) : IRequest<User>;
+
+    //kk
 }
